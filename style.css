@@ -447,8 +447,6 @@ button:focus {
 	margin-top: 70px;
 	padding: 20px;
 	width: 100%;
-	/* display: flex;
-	flex-wrap: wrap; */
 }
 
 .mu-about-content-left {
@@ -554,6 +552,7 @@ button:focus {
 .profile-div {
 	text-align: center;
 	width: 100%;
+	/* margin-top: 5%; */
 }
 
 .mu-profile-img {
@@ -564,7 +563,6 @@ button:focus {
 .skills {
 	font-size: 35px;
 }
-
 /*--------------------*/
 /* SERVICE */
 /*--------------------*/
