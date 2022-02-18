@@ -447,6 +447,8 @@ button:focus {
 	margin-top: 70px;
 	padding: 20px;
 	width: 100%;
+	/* display: flex;
+	flex-wrap: wrap; */
 }
 
 .mu-about-content-left {
@@ -549,6 +551,28 @@ button:focus {
 	color: #fff;
 }
 
+.profile-div {
+	text-align: center;
+	width: 100%;
+}
+
+.mu-profile-img {
+	width: 30%;
+	height: auto;
+	/* min-width: 200px; */
+}
+
+/* .mu-profile-skills {
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+} */
+
+.skills {
+	font-size: 20px;
+}
 
 /*--------------------*/
 /* SERVICE */
@@ -629,7 +653,7 @@ button:focus {
 
 
 #mu-portfolio {
-	background-color: #f8f8f8;
+	background-color: #fff;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -904,7 +928,7 @@ button:focus {
 /*--------------------*/
 
 #mu-contact {
-	background-color: #fff;
+	background-color: #f8f8f8;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -955,6 +979,9 @@ button:focus {
 	line-height: 70px;
 	border-radius: 50%;
 	margin-bottom: 15px;
+	color: #fff;
+}
+.mu-icon .fa  {
 	color: #fff;
 }
 
@@ -1121,7 +1148,9 @@ button:focus {
 }
 
 @media (max-width: 991px) {
-	
+	.mu-profile-skills, .mu-social-media {
+		text-align: center;
+	}
 	.navbar-default .mu-menu li a {
 		font-size: 14px;
 		margin: 10px 5px;
@@ -1387,9 +1416,4 @@ button:focus {
 	
 	
 	
-}
-
-
-.mu-profile-img {
-	width: 30%;
 }
