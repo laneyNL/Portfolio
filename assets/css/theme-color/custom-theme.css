@@ -1,10 +1,11 @@
 
-
-
 /*=======================================
-Template Design By MarkUps  
+Template Design By MarkUps	
 Author URI : http://www.markups.io/
 ========================================*/
+
+
+
 .mu-primary-btn:hover,
 .mu-primary-btn:focus,
 .mu-filter-link:hover,
@@ -15,15 +16,15 @@ Author URI : http://www.markups.io/
 .mu-simplefilter li.active,
 .mu-copy-right a:hover,
 .mu-copy-right a:focus {
-	color: #4568DC;
+	color: #339999;
 }
 
 .mu-send-msg-btn:hover,
 .mu-send-msg-btn:focus,
 .mu-social-media a:hover,
 .mu-social-media a:focus {
-	border: 1px solid #4568DC;
-	color: #4568DC;
+	border: 1px solid #339999;
+	color: #339999;
 }
 
 .mu-testimonial-slide .slick-dots li button:hover,
@@ -39,26 +40,65 @@ Author URI : http://www.markups.io/
 #mu-header.mu-fixed-nav {
 	background: rgb(81,106,119);
 	background: linear-gradient(90deg, rgba(81,106,119,1) 0%, rgba(46,69,145,1) 45%, rgba(81,106,119,1) 100%);
-	animation: gradient 15s ease infinite;
+	animation: gradient 5s ease;
+}
+
+@keyframes gradient {
+	0% {
+		opacity: 0.3;
+	}
+	50% {
+		opacity: 0.6;
+	}
+	100% {
+	opacity: 1;
+	}
+}
+
+.featured-name  {
+	animation: name 3s ease;
+}
+
+.mu-featured-content  {
+	animation: content 7s ease;
+}
+
+
+@keyframes name {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes content {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 .mu-contact-form .form-control:focus {
-	border: 1px solid #4568DC;    
+	border: 1px solid #339999;    
 } 
-
-
 
 .mu-resume-btn,
 .mu-service-icon-box {
-	border: 2px solid #4568DC;
-	color: #4568DC;
+	border: 2px solid #339999;
+	color: #339999;
 }
 
 
 .mu-pro-bar .proggress {
-	background-color: #4568DC !important;
+	background-color: #339999 !important;
 }
-
-
-
-

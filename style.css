@@ -707,7 +707,7 @@ button:focus {
 	right: 16px;
 	bottom: 16px;
 	color: #fff;
-	padding-top: 25%;
+	padding-top: 10%;
 	text-align: center;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
@@ -1174,7 +1174,7 @@ button:focus {
 	}
 
 	.mu-filter-item-content {
-		padding-top: 18%;
+		padding-top: 10%;
 	}
 
 	.filtr-item h4 {
@@ -1223,7 +1223,7 @@ button:focus {
 	}
 
 	.mu-filter-item-content {
-		padding-top: 25%;
+		padding-top: 10%;
 	}
 
 	.mu-contact-top-single {
@@ -1339,7 +1339,7 @@ button:focus {
 	}
 
 	.mu-filter-item-content {
-		padding-top: 20%;
+		padding-top: 10%;
 	}
 
 	.mu-featured-area {
@@ -1368,7 +1368,7 @@ button:focus {
 	}
 
 	.mu-filter-item-content {
-		padding-top: 25%;
+		padding-top: 10%;
 		padding-left: 5px;
 		padding-right: 5px;
 	}
