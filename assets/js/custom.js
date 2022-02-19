@@ -47,8 +47,8 @@
 
 		var typed = new Typed('#typed', {
 		    stringsElement: '#typed-strings',
-		    typeSpeed: 40,
-		    backSpeed: 30,
+		    typeSpeed: 60,
+		    backSpeed: 40,
 		    startDelay: 2000,
 		    loop: true,
 		    loopCount: Infinity

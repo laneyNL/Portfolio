@@ -572,6 +572,7 @@ button:focus {
 	display: inline;
 	float: left;
 	width: 100%;
+	background-color: #f7f7f7;
 }
 
 .mu-service-area {
@@ -603,7 +604,7 @@ button:focus {
 }
 
 .mu-service-content-single {
-	background-color: #f8f8f8;
+	background-color: #FFF;
 	display: inline;
 	float: left;
 	text-align: center;
@@ -614,13 +615,12 @@ button:focus {
 }
 
 .mu-service-icon-box {
-	font-size: 30px;
 	margin-bottom: 20px;
 	display: inline-block;
-	border-radius: 50%;
 	width: 75px;
 	height: 75px;
 	line-height: 75px;
+	border-radius: 0%;
 }
 
 .mu-service-content-single h4{
@@ -917,7 +917,7 @@ button:focus {
 /*--------------------*/
 
 #mu-contact {
-	background-color: #f8f8f8;
+	background-color: #fff;
 	display: inline;
 	float: left;
 	width: 100%;

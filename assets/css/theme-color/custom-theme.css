@@ -16,15 +16,15 @@ Author URI : http://www.markups.io/
 .mu-simplefilter li.active,
 .mu-copy-right a:hover,
 .mu-copy-right a:focus {
-	color: #339999;
+	color: rgb(81,106,119);
 }
 
 .mu-send-msg-btn:hover,
 .mu-send-msg-btn:focus,
 .mu-social-media a:hover,
 .mu-social-media a:focus {
-	border: 1px solid #339999;
-	color: #339999;
+	border: 1px solid rgb(81,106,119);
+	color: rgb(81,106,119);
 }
 
 .mu-testimonial-slide .slick-dots li button:hover,
@@ -35,7 +35,10 @@ Author URI : http://www.markups.io/
 .mu-header-dot,
 .mu-filter-item-content,
 .mu-contact-top-single .mu-icon,
-.mu-skill-progress-bar .mu-pro-bar,
+.mu-skill-progress-bar .mu-pro-bar {
+	background: rgb(81,106,119);
+}
+
 #mu-featured-slider,
 #mu-header.mu-fixed-nav {
 	background: rgb(81,106,119);
@@ -89,16 +92,15 @@ Author URI : http://www.markups.io/
 }
 
 .mu-contact-form .form-control:focus {
-	border: 1px solid #339999;    
+	border: 1px solid rgb(81,106,119);    
 } 
 
-.mu-resume-btn,
-.mu-service-icon-box {
-	border: 2px solid #339999;
-	color: #339999;
+.mu-resume-btn {
+	border: 2px solid rgb(81,106,119);
+	color: rgb(81,106,119);
 }
 
 
 .mu-pro-bar .proggress {
-	background-color: #339999 !important;
+	background-color: rgb(81,106,119) !important;
 }
