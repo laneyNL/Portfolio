@@ -13,7 +13,7 @@ $(function() {
 
 		// Serialize the form data.
 		var formData = $(form).serialize();
-
+		
 		// Submit the form using AJAX.
 		$.ajax({
 			type: 'POST',
@@ -21,6 +21,7 @@ $(function() {
 			data: formData
 		})
 		.done(function(response) {
+			// console.log(response)
 			// Make sure that the formMessages div has the 'success' class.
 			$(formMessages).removeClass('error');
 			$(formMessages).addClass('success');
@@ -36,6 +37,7 @@ $(function() {
 		})
 		.fail(function(data) {
 			// Make sure that the formMessages div has the 'error' class.
+			// console.log(data)
 			$(formMessages).removeClass('success');
 			$(formMessages).addClass('error');
 
